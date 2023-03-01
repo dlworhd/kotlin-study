@@ -160,25 +160,19 @@ class Ex {
 //    }
 //}
 
-//fun main(){
-//    var t = Temp("j")
-//
-//}
-//
-//class Temp(var name: String, var age: Int){
-//
-//    constructor(name: String): this(name, 29)
-//    init{
-//        print("초기화 중입니다. 이름은 $name 이고, 나이는 $age 입니다.")
-//    }
-//}
-//
-//class Temp(var name: String, var age: Int){
-//    constructor(name: String): this(name, 24)
-//    init {
-//        println("제 이름은 $name 이고, 나이는 $age 살입니다.")
-//    }
-//}
+fun main(){
+    var t = Temp("j")
+
+}
+
+class Temp(var name: String, var age: Int){
+
+    constructor(name: String): this(name, 29)
+    init{
+        print("초기화 중입니다. 이름은 $name 이고, 나이는 $age 입니다.")
+    }
+}
+
 
 
 
